@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AFV – Asif Food Valley | Pizza, Burgers, Fast Food &amp; Events</title>
+<meta name="description" content="Explore delicious pizzas, burgers, pasta, shawarma, fries, special deals and birthday event planning at AFV – Asif Food Valley. Order now!">
+<meta property="og:title" content="AFV – Asif Food Valley | Pizza, Burgers, Fast Food &amp; Events">
+<meta property="og:description" content="Explore delicious pizzas, burgers, pasta, shawarma, fries, special deals and birthday event planning at AFV – Asif Food Valley. Order now!">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#140d0c">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Outfit:wght@400;500;600&display=swap">
+<style>
+:root{--red:#d7263d;--red2:#a3101f;--gold:#f6b93b;--cream:#fff3dc;--ink:#140d0c;--ink2:#1f1514;--mut:#c9b9a6;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+body{background:var(--ink);color:var(--cream);font:400 16px/1.6 Outfit,system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.1}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--ink);z-index:60}
+.wrap{max-width:1120px;margin:auto;padding:0 20px}
+section{padding:84px 0}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(20,13,12,.92);backdrop-filter:blur(10px);border-bottom:1px solid #3a2a26}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+.logo{font:900 24px Fraunces,serif;color:var(--gold);letter-spacing:.5px}
+.logo small{display:block;font:500 10px Outfit;color:var(--mut);margin-top:-4px}
+nav ul{display:flex;gap:4px;list-style:none;padding:0;overflow-x:auto;scrollbar-width:none}
+nav ul a{display:block;padding:8px 12px;border-radius:99px;font-weight:500;font-size:15px;white-space:nowrap}
+nav ul a:hover,nav ul a.on{background:var(--red);color:#fff}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:99px;font-weight:600;border:2px solid transparent;cursor:pointer;font-family:inherit;font-size:15px;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+.b-red{background:linear-gradient(135deg,var(--red),var(--red2));color:#fff}
+.b-gold{background:var(--gold);color:var(--ink)}
+.b-out{border-color:var(--gold);color:var(--gold)}
+.b-wa{background:#1fa855;color:#fff}
+.hero{padding:56px 0 72px;background:radial-gradient(circle at 80% 30%,rgba(215,38,61,.45),transparent 55%),radial-gradient(circle at 10% 90%,rgba(246,185,59,.18),transparent 45%)}
+.hero .wrap{display:grid;gap:40px;align-items:center}
+.hero h1{font-size:clamp(46px,9vw,92px);font-weight:900}
+.hero h1 span{color:var(--gold);display:block;font-size:.5em;margin-top:12px;font-weight:700}
+.hero p{max-width:480px;color:var(--mut);margin:20px 0 28px;font-size:18px}
+.row{display:flex;flex-wrap:wrap;gap:12px}
+.plate{position:relative;aspect-ratio:1;max-width:440px;width:100%;margin:auto;border-radius:50%;background:radial-gradient(circle,#ffd36b 0%,var(--gold) 40%,var(--red) 100%);display:grid;place-items:center;font-size:clamp(120px,26vw,200px);box-shadow:0 0 0 14px rgba(246,185,59,.15),0 30px 80px rgba(215,38,61,.45);animation:spin 28s linear infinite}
+.plate>i{font-style:normal;animation:spin 28s linear infinite reverse;display:block}
+.plate b{position:absolute;font-size:clamp(40px,8vw,64px);font-weight:400}
+@keyframes spin{to{transform:rotate(360deg)}}
+.h2{font-size:clamp(34px,6vw,54px);font-weight:900;margin-bottom:10px}
+.sub{color:var(--mut);max-width:560px;margin-bottom:36px}
+.about{background:var(--cream);color:var(--ink)}
+.about .sub,.about p{color:#4b3b35}
+.about .wrap{display:grid;gap:36px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.stats div{background:var(--ink);color:var(--cream);border-radius:18px;padding:20px 12px;text-align:center}
+.stats strong{display:block;font:900 30px Fraunces;color:var(--gold)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+.card{background:var(--ink2);border:1px solid #3a2a26;border-radius:22px;overflow:hidden;display:flex;flex-direction:column;transition:transform .25s,border-color .25s}
+.card:hover{transform:translateY(-5px);border-color:var(--gold)}
+.pic{height:150px;display:grid;place-items:center;font-size:76px;background:radial-gradient(circle at 50% 40%,rgba(246,185,59,.35),transparent 65%),linear-gradient(135deg,#3a1511,#1c0d0c)}
+.cb{padding:18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.cb h3{font-size:20px}
+.cb p{color:var(--mut);font-size:14px;flex:1}
+.pr{display:flex;align-items:center;justify-content:space-between;margin-top:10px;gap:8px}
+.pr strong{color:var(--gold);font-size:18px}
+.pr .btn{padding:9px 16px;font-size:14px}
+.deals{background:linear-gradient(160deg,var(--red2),#4a0a12)}
+.deals .card{background:rgba(20,13,12,.55);border-color:rgba(246,185,59,.4)}
+.tag{display:inline-block;background:var(--gold);color:var(--ink);font-weight:600;font-size:12px;padding:3px 10px;border-radius:99px;align-self:flex-start}
+.chips{position:sticky;top:calc(64px + env(safe-area-inset-top,0px));z-index:40;background:var(--ink);padding:12px 0;border-bottom:1px solid #3a2a26}
+.chips .wrap{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.chips a{flex:none;padding:8px 16px;border:1px solid #5a403a;border-radius:99px;font-size:14px;font-weight:500}
+.chips a:hover,.chips a.on{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.cat{padding:56px 0 0}
+.cat h2{font-size:clamp(28px,5vw,40px);margin-bottom:20px;font-weight:900}
+#menu{padding-bottom:84px}
+.events{background:radial-gradient(circle at 15% 20%,rgba(246,185,59,.18),transparent 50%),var(--ink2)}
+.events .wrap{display:grid;gap:36px}
+.perks{display:grid;gap:12px;list-style:none;padding:0}
+.perks li{padding-left:34px;position:relative}
+.perks li::before{content:"🎉";position:absolute;left:0}
+.box{background:var(--ink);border:1px solid #3a2a26;border-radius:24px;padding:24px;display:grid;gap:14px}
+label{font-size:14px;color:var(--mut);display:grid;gap:6px}
+input,select{width:100%;padding:12px 14px;border-radius:12px;border:1px solid #5a403a;background:#2a1b19;color:var(--cream);font:inherit}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.steps .card{padding:24px;gap:6px}
+.steps .card span{font-size:40px}
+.contact .grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.contact .card{padding:24px;gap:8px}
+.contact .card span{font-size:32px}
+footer{background:#0a0605;border-top:3px solid var(--red);padding:48px 0 110px;text-align:center}
+footer .logo{font-size:30px}
+.soc{display:flex;justify-content:center;gap:12px;margin:20px 0;flex-wrap:wrap}
+.soc a{padding:9px 18px;border:1px solid #5a403a;border-radius:99px;font-size:14px}
+.soc a:hover{background:var(--gold);color:var(--ink)}
+footer small{color:var(--mut)}
+.fab{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:70;width:60px;height:60px;border-radius:50%;background:#1fa855;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.5);animation:pulse 2.4s infinite}
+.fab svg{width:32px;fill:#fff}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(31,168,85,.6),0 8px 24px rgba(0,0,0,.5)}70%{box-shadow:0 0 0 18px rgba(31,168,85,0),0 8px 24px rgba(0,0,0,.5)}100%{box-shadow:0 0 0 0 rgba(31,168,85,0),0 8px 24px rgba(0,0,0,.5)}}
+.sz{display:grid;gap:8px;margin-top:10px}
+.sz a{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;border-radius:14px;background:#2a1b19;border:1px solid #4a3530;font-size:14px;cursor:pointer;transition:border-color .2s,background .2s}
+.sz a:hover{border-color:var(--gold);background:#3a2420}
+.sz a span{color:var(--mut);font-weight:500}
+.sz b{color:var(--gold);font-size:18px;font-weight:600}
+.note{color:var(--mut);font-size:14px;margin:-8px 0 20px}
+.cat .pic{height:130px;font-size:68px}
+.dgrid{display:grid;gap:22px;grid-template-columns:1fr}
+.dl{background:var(--cream);color:var(--ink);border-radius:24px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 16px 40px rgba(0,0,0,.35);transition:transform .25s}
+.dl:hover{transform:translateY(-5px)}
+.dimg{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:4px 2px;padding:22px 14px;min-height:140px;font-size:42px;line-height:1.1;background:radial-gradient(circle at 50% 45%,#ffe08f,var(--gold) 60%,#e8960f)}
+.dbody{padding:18px 20px 20px;display:flex;flex-direction:column;gap:14px;flex:1}
+.dtop{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.dl h3{font-size:26px;font-weight:900;color:var(--ink);letter-spacing:.5px}
+.dprice{background:linear-gradient(135deg,var(--red),var(--red2));color:#fff;font-weight:600;font-size:19px;padding:6px 16px;border-radius:99px;box-shadow:0 6px 14px rgba(163,16,31,.4);white-space:nowrap}
+.dl ul{list-style:none;padding:0;display:grid;gap:6px;flex:1}
+.dl li{padding-left:24px;position:relative;font-weight:500;color:#3d2c27}
+.dl li::before{content:"";position:absolute;left:2px;top:.55em;width:10px;height:10px;border-radius:50%;background:var(--red)}
+.dl .btn{justify-content:center;width:100%}
+@media(min-width:600px){.dgrid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){.dl{flex-direction:row}.dimg{width:38%;flex:none;min-height:0;font-size:40px}}
+.party{position:relative;background:radial-gradient(circle at 50% 0,rgba(246,185,59,.28),transparent 55%),linear-gradient(180deg,rgba(20,13,12,.4),rgba(20,13,12,.1) 35%,rgba(20,13,12,.55)),repeating-linear-gradient(90deg,#5a3720 0 58px,#47291a 58px 60px,#643e25 60px 118px,#4a2b19 118px 120px);padding-top:96px}
+.party::before{content:"";position:absolute;top:0;left:0;right:0;height:26px;background:radial-gradient(circle at 50% 12px,#ffd36b 0 5px,transparent 6px) 0 0/44px 26px repeat-x}
+.phd{text-align:center;max-width:760px;margin:0 auto 44px}
+.ptitle{display:inline-block;background:var(--gold);color:var(--ink);font-weight:600;font-size:13px;letter-spacing:1.5px;padding:8px 20px;border-radius:99px;margin-bottom:18px}
+.psub{color:var(--cream);font-size:18px;margin:6px 0 26px;opacity:.9}
+.pgal{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-bottom:56px}
+.pol{background:var(--cream);color:var(--ink);padding:10px 10px 14px;border-radius:6px;box-shadow:0 14px 30px rgba(0,0,0,.45);transform:rotate(-2deg);transition:transform .3s}
+.pol:nth-child(even){transform:rotate(2deg)}
+.pol:hover{transform:rotate(0) scale(1.03)}
+.ph{aspect-ratio:4/3;display:grid;place-items:center;font-size:clamp(34px,7vw,56px);border-radius:3px;background:radial-gradient(circle at 50% 40%,#ffe08f,var(--gold) 60%,#e8960f)}
+.pol:nth-child(3n+2) .ph{background:radial-gradient(circle at 50% 40%,#ff8a8a,var(--red) 65%,var(--red2))}
+.pol figcaption{display:grid;gap:2px;margin-top:10px;padding:0 4px}
+.pol b{font:700 16px Fraunces,serif}
+.pol span{font-size:13px;color:#5b4a42;line-height:1.4}
+.psplit{display:grid;gap:32px;align-items:start}
+.psplit h3{font-size:26px;font-weight:900;margin-bottom:16px}
+.party .box{background:rgba(20,13,12,.82);backdrop-filter:blur(6px)}
+@media(min-width:900px){.pgal{grid-template-columns:repeat(3,1fr);gap:26px}.psplit{grid-template-columns:1fr 1fr;gap:48px}}
+.lnk{color:var(--gold);font-weight:600;display:block;margin-top:6px}
+.lnk:hover{text-decoration:underline}
+.big{font:900 24px Fraunces,serif;color:var(--gold)}
+.cbtns{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.cbtns .btn{flex:1 1 200px;justify-content:center;padding:16px 24px;font-size:16px}
+.soc.ic{margin:28px 0 0;justify-content:flex-start}
+footer .soc.ic{justify-content:center;margin:20px 0}
+.soc.ic a{width:48px;height:48px;padding:0;display:grid;place-items:center;border-radius:50%;color:var(--gold)}
+.soc.ic svg{width:22px;height:22px}
+.burger{display:none;background:none;border:1px solid #5a403a;color:var(--cream);border-radius:10px;width:42px;height:42px;font-size:20px;cursor:pointer}
+@media(max-width:800px){.burger{display:block}nav ul{display:none}nav ul.open{display:flex;flex-direction:column;position:absolute;left:0;right:0;top:100%;background:var(--ink);padding:10px 20px 18px;border-bottom:2px solid var(--red);overflow:visible}nav ul.open a{padding:12px 14px;font-size:17px}}
+.cb p:empty{display:none}
+.cat{scroll-margin-top:62px}
+footer{text-align:left}
+.fgrid{display:grid;gap:32px}
+footer h4{font:700 18px Fraunces,serif;color:var(--gold);margin-bottom:10px}
+footer a:not(.btn),footer .fgrid p{display:block;color:var(--mut);padding:4px 0;font-size:15px}
+footer a:not(.btn):hover{color:var(--gold)}
+footer .ft{font:700 20px Fraunces,serif;color:var(--cream)}
+.fb{margin-top:36px;padding-top:20px;border-top:1px solid #3a2a26;text-align:center}
+.rv{opacity:0}.rv.in{opacity:1;animation:up .6s backwards}
+@keyframes up{from{opacity:0;transform:translateY(16px)}}
+@media(min-width:700px){.fgrid{grid-template-columns:1fr 1fr}}
+@media(min-width:1000px){.fgrid{grid-template-columns:1.4fr 1fr 1fr 1.4fr}}
+@media(min-width:820px){.hero .wrap,.about .wrap,.events .wrap{grid-template-columns:1.1fr 1fr}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+<a href="#home" class="logo">AFV<small>Asif Food Valley</small></a>
+<ul id="links"><li><a href="#home">Home</a></li><li><a href="#deals">Deals</a></li><li><a href="#menu">Menu</a></li><li><a href="#events">Events</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul>
+<div class="row" style="flex-wrap:nowrap;gap:8px"><a class="btn b-red" data-call style="padding:9px 18px">📞 Call</a><button class="burger" id="bg" aria-label="Open menu" aria-expanded="false">☰</button></div>
+</div></nav>
+
+<header class="hero" id="home"><div class="wrap">
+<div>
+<h1>More Flavour, More Fun<span>Where Flavor Gets Funky!</span></h1>
+<p>Pizzas, burgers, pasta, wings, fries and shawarma, with special deals, birthday events and home delivery.</p>
+<div class="row"><a class="btn b-red" href="#menu">Explore menu</a><a class="btn b-wa" data-wa="Hello AFV – Asif Food Valley, I want to place an order.">Order on WhatsApp</a><a class="btn b-out" href="#deals">See deals</a></div>
+</div>
+<div class="plate"><i>🍔</i><b style="top:4%;left:8%">🍕</b><b style="bottom:6%;left:12%">🍟</b><b style="top:10%;right:4%">🍗</b><b style="bottom:8%;right:8%">🌯</b></div>
+</div></header>
+
+<section class="about" id="about"><div class="wrap">
+<div><h2 class="h2">Fast food with a funky soul</h2>
+<p>AFV – Asif Food Valley is a local fast-food restaurant in Okara serving pizzas, burgers, pasta, wings, fries and shawarma. We also plan birthday celebrations and events, and deliver to your home.</p>
+<p style="margin-top:12px">More Flavour, More Fun.</p></div>
+<div class="stats"><div><strong>10</strong>Special deals</div><div><strong>8</strong>Menu categories</div><div><strong>12 AM</strong>Closing time</div></div>
+</div></section>
+
+<section class="deals" id="deals"><div class="wrap">
+<h2 class="h2">OUR BEST DEALS</h2><p class="sub">Big flavour, smaller price. Tap Order Now and your deal is ready to send on WhatsApp.</p>
+<div class="dgrid" id="g-deals"></div></div></section>
+
+<section id="menu" style="padding-bottom:0"><div class="wrap"><h2 class="h2">Our menu</h2><p class="sub">Pick a category, then tap any size or price to order on WhatsApp. All prices in PKR.</p></div></section>
+<div class="chips" id="chips"><div class="wrap"></div></div>
+<section id="menu-body" style="padding:0 0 84px"><div class="wrap" id="cats"></div></section>
+
+<section class="party" id="events"><div class="wrap">
+<div class="phd">
+<p class="ptitle">BIRTHDAY CELEBRATION &amp; EVENT PLANNER</p>
+<h2 class="h2">Make Your Special Moments Memorable!</h2>
+<p class="psub">Celebrate birthdays and special occasions with AFV – Asif Food Valley.</p>
+<div class="row" style="justify-content:center"><a class="btn b-gold" href="#planner">Plan Your Event</a><a class="btn b-wa" data-wa="Hello AFV, I want to inquire about Birthday Celebration &amp; Event Planner services.">Book on WhatsApp</a></div>
+</div>
+<div class="pgal"><figure class="pol"><div class="ph">🎂🎈🎁</div><figcaption><b>Birthday celebration setup</b></figcaption></figure><figure class="pol"><div class="ph">🎈🎉✨</div><figcaption><b>Birthday decoration</b></figcaption></figure><figure class="pol"><div class="ph">🍽️🕯️🌸</div><figcaption><b>Table arrangement</b></figcaption></figure><figure class="pol"><div class="ph">🍕🍔🍗🥤</div><figcaption><b>Food catering</b></figcaption></figure><figure class="pol"><div class="ph">🥳🎂🎶</div><figcaption><b>Birthday parties</b></figcaption></figure><figure class="pol"><div class="ph">🥂💐🎊</div><figcaption><b>Small events and celebrations</b></figcaption></figure></div>
+<div class="psplit">
+<div><h3>Everything for your celebration</h3>
+<ul class="perks"><li>Birthday celebration setup</li><li>Birthday decoration</li><li>Table arrangement</li><li>Food catering</li><li>Birthday parties</li><li>Small events and celebrations</li></ul></div>
+<div class="box" id="planner"><h3>Plan your event</h3>
+<label>Your name<input id="en" placeholder="Full name"></label>
+<label>Event type<select id="et"><option>Birthday</option><option>Family gathering</option><option>Office party</option><option>Small celebration</option><option>Other</option></select></label>
+<label>Date<input id="ed" type="date"></label>
+<label>Number of guests<input id="eg" type="number" min="1" placeholder="e.g. 25"></label>
+<button class="btn b-red" id="evb">Send event details on WhatsApp</button></div>
+</div></div></section>
+
+<section id="delivery"><div class="wrap">
+<h2 class="h2">Home delivery</h2><p class="sub">Hot food at your door. Send your order on WhatsApp at 0308-1693037.</p>
+<div class="steps">
+<div class="card"><span>📱</span><h3>Order</h3><p class="cb" style="padding:0">Call us or send your order on WhatsApp.</p></div>
+<div class="card"><span>👨‍🍳</span><h3>We cook</h3><p class="cb" style="padding:0">We prepare your order.</p></div>
+<div class="card"><span>🛵</span><h3>We deliver</h3><p class="cb" style="padding:0">Your order is delivered to your door.</p></div>
+</div>
+<div class="row" style="margin-top:28px"><a class="btn b-red" data-call>📞 Call to order</a><a class="btn b-wa" data-wa="Hello AFV – Asif Food Valley, I want to place an order for home delivery.">WhatsApp delivery</a></div>
+</div></section>
+
+<section class="contact" id="contact" style="background:var(--ink2)"><div class="wrap">
+<h2 class="h2">Contact us</h2><p class="sub">Come hungry, or let us bring it to you.</p>
+<div class="grid">
+<div class="card"><span>📍</span><h3>Restaurant address</h3><p class="cb" style="padding:0">Adda 40/4L Nothain, Bodla, Okara, Pakistan<a class="lnk" href="https://www.google.com/maps/search/?api=1&amp;query=Adda%2040%2F4L%20Nothain%2C%20Bodla%2C%20Okara%2C%20Pakistan" target="_blank" rel="noopener">View on Google Maps</a></p></div>
+<div class="card"><span>💬</span><h3>WhatsApp / Home delivery</h3><p class="cb" style="padding:0"><a class="lnk big" data-wa="Hello AFV – Asif Food Valley, I want to place an order.">0308-1693037</a></p></div>
+<div class="card"><span>📞</span><h3>Phone</h3><p class="cb" style="padding:0"><a class="lnk big" href="tel:03403346147">0340-3346147</a></p></div>
+<div class="card"><span>🕒</span><h3>Opening hours</h3><p class="cb" style="padding:0"><b class="big">11:00 AM to 12:00 AM</b></p></div>
+</div>
+<div class="cbtns"><a class="btn b-wa" data-wa="Hello AFV – Asif Food Valley, I want to place an order.">Order on WhatsApp</a><a class="btn b-red" href="tel:03403346147">Call Now</a><a class="btn b-gold" href="https://www.google.com/maps/search/?api=1&amp;query=Adda%2040%2F4L%20Nothain%2C%20Bodla%2C%20Okara%2C%20Pakistan" target="_blank" rel="noopener">View Location</a></div>
+
+</div></section>
+
+<footer><div class="wrap fgrid">
+<div><div class="logo">AFV</div><p class="ft">Asif Food Valley</p><p style="color:var(--mut)">More Flavour, More Fun</p><div class="row" style="margin-top:16px"><a class="btn b-wa" data-wa="Hello AFV – Asif Food Valley, I want to place an order.">Order on WhatsApp</a></div></div>
+<div><h4>Explore</h4><a href="#home">Home</a><a href="#deals">Deals</a><a href="#menu">Menu</a><a href="#events">Events</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+<div><h4>Menu</h4><a href="#c-pizza">Pizza</a><a href="#c-special-pizza">Special Pizza</a><a href="#c-burgers">Burgers</a><a href="#c-pasta">Pasta</a><a href="#c-hot-wings-nuggets">Wings &amp; Nuggets</a><a href="#c-fries">Fries</a><a href="#c-shawarma">Shawarma</a><a href="#c-drinks">Drinks</a></div>
+<div><h4>Contact</h4><p>Adda 40/4L Nothain, Bodla, Okara, Pakistan</p><a data-wa="Hello AFV – Asif Food Valley, I want to place an order.">WhatsApp: 0308-1693037</a><a href="tel:03403346147">Phone: 0340-3346147</a><p>Open 11:00 AM to 12:00 AM</p></div>
+</div><div class="wrap fb"><small>© 2026 AFV – Asif Food Valley. All rights reserved.</small></div></footer>
+
+<a class="fab" data-wa="Hello AFV – Asif Food Valley, I want to place an order." aria-label="Order on WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.800 14.200c-.2.700-1.400 1.300-2 1.400-.5.100-1.200.100-1.900-.1-.4-.1-1-.3-1.700-.6-3-1.300-5-4.300-5.100-4.500-.1-.2-1.200-1.600-1.200-3s.8-2.100 1-2.400c.3-.3.600-.3.800-.3h.600c.2 0 .4 0 .6.500l.8 2c.1.200.1.300 0 .5l-.3.400-.4.500c-.1.200-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.100 1 2.100 1.300 2.400 1.500.3.100.5.100.6-.1l.9-1.100c.2-.3.400-.2.600-.1l1.900.9c.3.100.5.200.5.300.1.100.1.700-.1 1.300z"/></svg></a>
+
+<script>
+const PHONE="03403346147",WA="923081693037";
+const wa=t=>"https://wa.me/"+WA+"?text="+encodeURIComponent(t);
+const D=[
+["849",["5 Hotwings","5 Nuggets","Plain Fries","500ml Drink"],"🍗🍤🍟🥤"],
+["1,099",["3 Zinger Burgers","1L Drink"],"🍔🍔🍔🥤"],
+["1,199",["1 Medium Pizza","1 Zinger Burger","1L Drink"],"🍕🍔🥤"],
+["1,199",["3 Chicken Shawarma","1 Small Pizza","1L Drink"],"🌯🌯🌯🍕🥤"],
+["1,449",["1 Large Pizza","1.5L Drink"],"🍕🥤"],
+["1,649",["5 Zinger Burgers","1.5L Drink"],"🍔🍔🍔🍔🍔🥤"],
+["2,199",["Malai Boti Large Pizza","Tikka Small Pizza","1.5L Drink"],"🍕🍕🥤"],
+["2,499",["2 Medium Pizza","2 Zinger Burgers","2L Drink"],"🍕🍕🍔🍔🥤"],
+["2,999",["2 Large Pizza Regular","1.5L Drink"],"🍕🍕🥤"],
+["3,299",["1 Large Pizza","3 Zinger Burgers","3 Chicken Shawarma","1.5L Drink"],"🍕🍔🍔🍔🌯🌯🌯🥤"]];
+const P3=[["Small",499],["Medium",849],["Large",1399]],S2=[["Small",199],["Medium",299]],S2b=[["Small",249],["Medium",349]],W=[["5 pieces",299],["10 pieces",549]];
+const M=[
+["Pizza","🍕","Fajita, Supreme, Cheeze and Vegetable pizzas use the same sizes and prices as Chicken Tikka.",[["Chicken Tikka Pizza","",P3],["Chicken Fajita Pizza","",P3],["Chicken Supreme Pizza","",P3],["Cheeze Pizza","",P3],["Vegetable Pizza","",P3]]],
+["Special Pizza","🍕","",[["Lazania Pizza","",[["Medium",999],["Large",1599]]],["Stuff Crust Pizza","",[["Medium",949],["Large",1499]]],["Malai Boti Pizza","",[["Small",549],["Medium",949],["Large",1449]]],["AFV Special Pizza","",[["Medium",1199],["Large",1799]]],["Crown Crust Kabab Pizza","",[["Medium",949],["Large",1499]]]]],
+["Burgers","🍔","",[["Zinger Burger","",[["",299]]],["Chicken Burger","",[["",299]]],["AFV Special Burger","",[["",399]]],["BBQ Burger","",[["",349]]],["Shami Burger","",[["",149]]],["Cheese Slice","",[["",69]],"🧀"],["Double Egg","",[["",49]],"🍳"]]],
+["Pasta","🍝","",[["Chicken Pasta","",[["Small",449],["Medium",749]]],["Crunchy Pasta","",[["Small",499],["Medium",799]]],["AFV Special Pasta","",[["Small",549],["Medium",899]]]]],
+["Hot Wings & Nuggets","🍗","",[["Hot Wings","",[["5 pieces",349],["10 pieces",599]]],["BBQ Wings","",[["5 pieces",299],["10 pieces",549]],"🍖"],["Nuggets","",W,"🍤"]]],
+["Fries","🍟","",[["Plain Fries","",S2],["Masala Fries","",S2b],["Garlic Fries","",S2b],["Loaded Fries","",[["Small",499],["Medium",799]]]]],
+["Shawarma","🌯","",[["Chicken Shawarma","",[["",199]]],["Zinger Shawarma","",[["",299]]],["AFV Shawarma","",[["",399]]],["Cheese","",[["",49]],"🧀"]]],
+["Drinks","🥤","",[["Drinks","Choose your size",[["345ml",69],["500ml",99],["1000ml",149],["1500ml",199]]]]]];
+const rs=n=>"Rs. "+n.toLocaleString("en-US");
+const mcard=(c,e,i)=>{const em=i[3]||e;return `<div class="card"><div class="pic">${em}</div><div class="cb"><h3>${i[0]}</h3><p>${i[1]}</p><div class="sz">${i[2].map(v=>`<a data-wa="Hi AFV! I would like to order: ${i[0]}${v[0]?" - "+v[0]:""} (${rs(v[1])})"><span>${v[0]||"Order now"}</span><b>${rs(v[1])}</b></a>`).join("")}</div></div></div>`};
+const card=(n,d,p,e,t)=>`<div class="card"><div class="pic">${e}</div><div class="cb">${t?'<span class="tag">Deal</span>':''}<h3>${n}</h3><p>${d}</p><div class="pr"><strong>${p}</strong><a class="btn b-wa" data-wa="Hi AFV! I would like to order: ${n} (${p})">Order</a></div></div></div>`;
+document.getElementById("g-deals").innerHTML=D.map((d,i)=>{const no="DEAL "+String(i+1).padStart(2,"0");return `<article class="dl"><div class="dimg">${d[2]}</div><div class="dbody"><div class="dtop"><h3>${no}</h3><span class="dprice">Rs. ${d[0]}</span></div><ul>${d[1].map(x=>`<li>${x}</li>`).join("")}</ul><a class="btn b-wa" data-wa="Hi AFV! I would like to order ${no} for Rs. ${d[0]}: ${d[1].join(" + ")}">Order Now</a></div></article>`}).join("");
+const slug=s=>"c-"+s.toLowerCase().replace(/[^a-z]+/g,"-");
+document.querySelector("#chips .wrap").innerHTML=M.map(c=>`<a href="#${slug(c[0])}">${c[1]} ${c[0]}</a>`).join("");
+document.getElementById("cats").innerHTML=M.map(c=>`<div class="cat" id="${slug(c[0])}"><h2>${c[0]}</h2>${c[2]?`<p class="note">${c[2]}</p>`:""}<div class="grid">${c[3].map(i=>mcard(c[0],c[1],i)).join("")}</div></div>`).join("");
+document.querySelectorAll("[data-wa]").forEach(a=>{a.href=wa(a.dataset.wa);a.target="_blank";a.rel="noopener"});
+document.querySelectorAll("[data-call]").forEach(a=>{a.href="tel:"+PHONE.replace(/\s/g,"");if(a.id==="ph")a.textContent=PHONE});
+document.getElementById("evb").onclick=()=>{const v=id=>document.getElementById(id).value||"-";
+window.open(wa(`Hi AFV! Event enquiry.\nName: ${v("en")}\nEvent: ${v("et")}\nDate: ${v("ed")}\nGuests: ${v("eg")}`),"_blank")};
+const spy=(sel,attr)=>{const ls=[...document.querySelectorAll(sel)];const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)ls.forEach(l=>l.classList.toggle("on",l.getAttribute("href")==="#"+e.target.id))}),{rootMargin:"-40% 0px -55% 0px"});
+ls.forEach(l=>{const t=document.querySelector(l.getAttribute("href"));t&&io.observe(t)})};
+spy("#links a");spy("#chips a");
+const bg=document.getElementById("bg"),ul=document.getElementById("links");
+bg.onclick=()=>{const o=ul.classList.toggle("open");bg.setAttribute("aria-expanded",o);bg.textContent=o?"✕":"☰"};
+ul.addEventListener("click",e=>{if(e.target.tagName==="A"){ul.classList.remove("open");bg.setAttribute("aria-expanded",false);bg.textContent="☰"}});
+try{const ro=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");ro.unobserve(e.target)}}),{threshold:.08});
+document.querySelectorAll(".card,.dl,.pol,.box").forEach(el=>{el.classList.add("rv");ro.observe(el)})}catch(e){}
+</script>
+</body>
+</html>
